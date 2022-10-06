@@ -1,0 +1,20 @@
+?- mascot(who,tsecgames).
+false.
+
+?- mascot(tibu,tsecgames).
+true.
+
+?- mascot(x,tsecgames).
+false.
+
+?- mascot(Who,tsecgames).
+Who = tibu.
+
+?- vertebrate(X).
+X = tibu .
+
+?- eat(tibu,X).
+X = leaves.
+
+?- eat(tibu,Food).
+Food = leaves.
