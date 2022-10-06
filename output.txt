@@ -18,3 +18,8 @@ X = leaves.
 
 ?- eat(tibu,Food).
 Food = leaves.
+
+volume :
+?- area(5).
+the surface area of the cube is 150
+the volume of the cube is: 125
